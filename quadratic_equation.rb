@@ -12,7 +12,7 @@ d = b**2 - 4*a*c
 if d < 0
   puts 'Корней нет!'
 elsif d == 0
-  first = (-b + Math.sqrt(d)) / 2*a
+  first = (-b + Math.sqrt(d)) / (2*a)
   puts "Дискриминант: #{d}; Корень: #{first}"
 else
   first = (-b + Math.sqrt(d)) / (2*a)
